@@ -1,4 +1,4 @@
-# streampay-onramp
+# StreamPay Onramp
  API Gateway for accepting Solana payments
 
 # E-Commerce Marketplace Accepting USDC
