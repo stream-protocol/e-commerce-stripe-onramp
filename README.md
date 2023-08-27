@@ -1,6 +1,6 @@
 The Comprehensive information about the **StreamPay Onramp** project, its features, setup instructions, technologies used, and more. It appears to be a well-structured and informative README that should help users understand and get started with the project. Below is a summary of the content in the README:
 
-### Project Overview
+# Project Overview
 
 The **StreamPay Onramp** project is an API Gateway designed for accepting Solana payments. It is aimed at creating an E-Commerce Marketplace that accepts USDC (USD Coin) as a means of payment. The project allows content creators and businesses to sell their digital products by making them available for purchase on the platform.
 
