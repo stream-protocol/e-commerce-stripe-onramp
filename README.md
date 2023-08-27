@@ -14,9 +14,7 @@ The **StreamPay Onramp** project is an API Gateway designed for accepting Solana
 
 To get started with the **E-Commerce that Accepts USDC** platform, follow these steps:
 
-<p>Admin</p>
-
-### Prerequisites
+### Admin Prerequisites
 
 **Node version 14.x**
 
