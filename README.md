@@ -1,9 +1,9 @@
-# StreamPay Onramp
- API Gateway for accepting Solana payments
-
 # E-Commerce Marketplace Accepting USDC
 
 **E-Commerce that Accepts USDC** is a marketplace platform designed for selling products. This platform offers a user-friendly interface for both creators and businesses to monetize their digital content by making it available for purchase to a larger audience. This project, referred to as "Store," aims to empower content creators to showcase their work and establish connections with potential buyers. Moreover, it strives to provide customers with a seamless and convenient purchasing experience.
+
+# StreamPay Onramp
+ API Gateway for accepting Solana payments
 
 ## Key Features
 
