@@ -136,12 +136,11 @@ Running commands with npm `npm run [command]`
 | `dev`           | Starts a development instance of the app |
 
 
-
 <hr>
 
 ## 👉 Features
 
- - **User Interface (UI)**: The admin dashboard and web user will be built using streampay UI, providing a modern and intuitive user interface for easy navigation and management of the CMS.
+ - **User Interface (UI)**: The admin dashboard and web user will be built using StreamPayments UI, providing a modern and intuitive user interface for easy navigation and management of the CMS.
 
  - **CMS, Admin, and API Functionality**: The admin dashboard will serve as a comprehensive solution by combining content management system (CMS), administrative tasks, and API generation capabilities in one platform.
 
@@ -149,7 +148,7 @@ Running commands with npm `npm run [command]`
 
  - **Category Management**: You can create, update, and delete categories to organize your products effectively. This feature allows for easy categorization of items based on their types or attributes.
 
- - **Product Management**: Easily handle product-related tasks such as creating new products, updating existing ones with details like name, description, price etc., as well as deleting products when necessary.
+ - **Product Management**: Easily handle product-related tasks such as creating new products, updating existing ones with details like name, description, price, etc., as well as deleting products when necessary.
 
  - **Image Uploads & Customization**: Users can upload multiple images per product and change them whenever required to showcase different views or variants of the item.
 
@@ -173,11 +172,11 @@ Running commands with npm `npm run [command]`
 
 The project utilizes the following technologies and dependencies:
 
-- **stripe/crypto** The Stripe fiat-to-crypto onramp enables individuals to securely purchase cryptocurrencies directly from your platform or Dapp at the time of checkout. The onramp is fully customizable and you can integrate it into your product or service. Stripe acts as the merchant of record for these onramp transactions and takes full liability for all fraud and disputes. Stripe also handles all regulatory requirements, know your customer (KYC) verifications, and sanctions screening. Customers have the option of saving payment methods, KYC data, and wallet information with Stripe, which makes the returning onramp experience much faster.
+- **stripe/crypto** The Stripe fiat-to-crypto onramp enables individuals to securely purchase cryptocurrencies directly from your platform or Dapp at the time of checkout. The onramp is fully customizable and you can integrate it into your product or service. Stripe acts as the merchant of record for these onramp transactions and takes full liability for all fraud and disputes. Stripe also handles all regulatory requirements, know-your-customer (KYC) verifications, and sanctions screening. Customers have the option of saving payment methods, KYC data, and wallet information with Stripe, which makes the returning onramp experience much faster.
 
-- **Next 13 (App Router)** The version 13 of Next.js, which includes the new App Router feature for client-side navigation within the application. This allows for smoother transitions between pages without full page reloads.
+- **Next 13 (App Router)** Version 13 of Next.js, which includes the new App Router feature for client-side navigation within the application. This allows for smoother transitions between pages without full-page reloads.
 
-- **Tailwind CSS** A highly customizable CSS framework that offers utility classes for rapid UI development.
+- **Tailwind CSS** Is a highly customizable CSS framework that offers utility classes for rapid UI development.
 
 - **Prisma** An open-source database toolkit that simplifies database access with its type-safe query builder, schema migrations, and data modeling features.
 
@@ -195,9 +194,9 @@ The project utilizes the following technologies and dependencies:
 
 ## How Stripe fiat-to-crypto onramp is being used
 
-In the Store website, the **Stripe fiat-to-crypto onramp** is utilized to facilitate the payment process and enable seamless transactions for purchasing digital content.
+On the Store website, the **Stripe fiat-to-crypto onramp** is utilized to facilitate the payment process and enable seamless transactions for purchasing digital content.
 
-- Install the SDK and client library..
+- Install the SDK and client library.
 
 - Generate a crypto onramp session on your backend.
 
@@ -319,7 +318,7 @@ After you’ve launched the Crypto Onramp, you can view customized usage reports
 
 ## 🧑‍🤝‍🧑 Contribution 
 
-Contributions to repository are welcome!
+Contributions to the repository are welcome!
 
 If you would like to contribute to the project, please follow these steps:
 
@@ -349,7 +348,6 @@ The e-commerce project is licensed under the MIT License. You are free to use, m
 
 ## ☎️ Contact  
 
-If you have any questions, suggestions, or feedback regarding E-Commerce that Accepts USDC, feel free to contact us at `kiemtran.dev@gmail.com`. I appreciate your interest in the project and will get back to you as soon as possible.
+If you have any questions, suggestions, or feedback regarding E-Commerce that Accepts USDC, feel free to contact us at `contact@streamprotocol.org`. I appreciate your interest in the project and will get back to you as soon as possible.
 
 Thank you for your interest in E-Commerce that Accepts USDC. I hope you find the platform useful for selling and monetizing your digital content. Happy selling!
-
