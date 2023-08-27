@@ -1,29 +1,23 @@
-# StreamPay Onramp
- API Gateway for accepting Solana payments
+The Comprehensive information about the **StreamPay Onramp** project, its features, setup instructions, technologies used, and more. It appears to be a well-structured and informative README that should help users understand and get started with the project. Below is a summary of the content in the README:
 
-# E-Commerce Marketplace Accepting USDC
+### Project Overview
 
-**E-Commerce that Accepts USDC** is a marketplace platform designed for selling products. This platform offers a user-friendly interface for both creators and businesses to monetize their digital content by making it available for purchase to a larger audience. This project, referred to as "Store," aims to empower content creators to showcase their work and establish connections with potential buyers. Moreover, it strives to provide customers with a seamless and convenient purchasing experience.
+The **StreamPay Onramp** project is an API Gateway designed for accepting Solana payments. It is aimed at creating an E-Commerce Marketplace that accepts USDC (USD Coin) as a means of payment. The project allows content creators and businesses to sell their digital products by making them available for purchase on the platform.
 
-## Key Features
+### Key Features
 
-- **Content Monetization**: Content creators and businesses can easily monetize their digital products by offering them for sale on the platform.
+- Content Monetization
+- User-Friendly Interface
+- USDC Payment Integration
+- Product Showcase
+- Seamless Purchasing
 
-- **User-Friendly Interface**: The store provides an intuitive and easy-to-navigate interface for both creators and customers, enhancing the overall user experience.
-
-- **USDC Payment Integration**: The platform supports USDC payments, allowing customers to make purchases using this popular stablecoin.
-
-- **Product Showcase**: Creators can showcase their products with detailed descriptions, images, and other relevant information.
-
-- **Seamless Purchasing**: Customers can browse, select, and purchase products with just a few clicks, creating a frictionless buying process.
-
-## Getting Started
+### Getting Started
 
 To get started with the **E-Commerce that Accepts USDC** platform, follow these steps:
 
-## ⚡ Getting Started
-
 <p>Admin</p>
+
 ### Prerequisites
 
 **Node version 14.x**
@@ -31,7 +25,7 @@ To get started with the **E-Commerce that Accepts USDC** platform, follow these 
 ### Cloning the repository
 
 ```shell
-git clone https://github.com/VanKiem-Tran/e-commerce-stripe-onramp.git
+git clone https://github.com/stream-payments/streampay-onramp.git
 ```
 
 ```shell
@@ -92,6 +86,7 @@ Running commands with npm `npm run [command]`
 
 <hr>
 <p>E-commerce Store</p>
+
 ## MAKE SURE YOU HAVE ADMIN SETUP FIRST!
 ### Prerequisites
 
@@ -100,7 +95,7 @@ Running commands with npm `npm run [command]`
 ### Cloning the repository
 
 ```shell
-git clone https://github.com/stream-protocol/streampay-onramp.git
+git clone https://github.com/VanKiem-Tran/e-commerce-stripe-onramp.git
 ```
 
 ```shell
@@ -135,7 +130,6 @@ Running commands with npm `npm run [command]`
 | :-------------- | :--------------------------------------- |
 | `dev`           | Starts a development instance of the app |
 
-
 <hr>
 
 ## 👉 Features
@@ -168,6 +162,33 @@ Running commands with npm `npm run [command]`
 
 <hr>
 
+### Available Commands
+
+The "Available commands" section lists the commands that can be used to run the development instance of the app.
+
+### Features
+
+This section outlines the features of the project, including:
+- User Interface (UI)
+- CMS, Admin, and API Functionality
+- Multi-vendor/Store Management
+- Category and Product Management
+- Image Uploads & Customization
+- Filter Creation & Integration
+- Comprehensive Search Functionality
+- Featured Products
+- Order and Revenue Management
+- Stripe Checkout Integration with USDC
+- MySQL + Prisma + PlanetScale
+
+### Technologies Used
+
+This section lists the technologies and dependencies used in the project, including Stripe, Next.js, Tailwind CSS, Prisma, TypeScript, MySQL, Clerk for authentication, Recharts for charts, Zustand for state management, and more.
+
+### Stripe Fiat-to-Crypto Onramp Usage
+
+This section explains how the Stripe fiat-to-crypto onramp is used in the project. It includes instructions on installing the SDK and client library, generating a crypto onramp session, rendering the onramp UI on the website, and viewing usage on the Stripe Dashboard.
+
 ## 🔧 Technologies Used
 
 The project utilizes the following technologies and dependencies:
@@ -176,7 +197,7 @@ The project utilizes the following technologies and dependencies:
 
 - **Next 13 (App Router)** Version 13 of Next.js, which includes the new App Router feature for client-side navigation within the application. This allows for smoother transitions between pages without full-page reloads.
 
-- **Tailwind CSS** Is a highly customizable CSS framework that offers utility classes for rapid UI development.
+- **Tailwind CSS** A highly customizable CSS framework that offers utility classes for rapid UI development.
 
 - **Prisma** An open-source database toolkit that simplifies database access with its type-safe query builder, schema migrations, and data modeling features.
 
@@ -194,7 +215,7 @@ The project utilizes the following technologies and dependencies:
 
 ## How Stripe fiat-to-crypto onramp is being used
 
-On the Store website, the **Stripe fiat-to-crypto onramp** is utilized to facilitate the payment process and enable seamless transactions for purchasing digital content.
+In the Store website, the **Stripe fiat-to-crypto onramp** is utilized to facilitate the payment process and enable seamless transactions for purchasing digital content.
 
 - Install the SDK and client library.
 
@@ -215,13 +236,13 @@ npm install --save @stripe/stripe-js @stripe/crypto
 ```sh
 curl -X POST https://api.stripe.com/v1/crypto/onramp_sessions \
   -u sk_test_51NXOHdARfU5KPLlVvSdDo9Y0zQXLkfS1vMj3AhYNU8A22W7rprb5YJTCDNfgaQeAl58yzZ8mMa3eBUD3EEWpdZiC00LD2YWcQA:
-  # this secret key is from step 1
+  # This secret key is from Step 1
 ```
 
 3. Render the Onramp UI
 
 ```sh
-# App.jsx
+# App.js
 import {loadStripeOnramp} from '@stripe/crypto';
 
 import {CryptoElements, OnrampElement} from './StripeCryptoElements';
@@ -229,7 +250,7 @@ import {CryptoElements, OnrampElement} from './StripeCryptoElements';
 const stripeOnrampPromise = loadStripeOnramp("pk_test_51NXOHdARfU5KPLlVkKLfC8cLyGoElI4ruwGVRhpKLb49CYPRicAYBj1fPT6VFlQHK8US7tYKhxYqKdErqdY6iNFA00jHYWcJhr");
 
 export default () => {
-  // IMPORTANT: replace with your logic of how to mint/retrieve client secret
+  // IMPORTANT: Replace with your logic of how to mint/retrieve the client's secret
   const clientSecret = "cos_1Lb6vsAY1pjOSNXVWF3nUtkV_secret_8fuPvTzBaxj3XRh14C6tqvdl600rpW7hG4G";
 
   return (
@@ -241,7 +262,7 @@ export default () => {
 # StripeCryptoElements.jsx
 import React, { ReactNode } from 'react';
 
-// ReactContext to simplify access of StripeOnramp object
+// ReactContext to simplify the access of the StripeOnramp object
 const CryptoElementsContext = React.createContext(null);
 
 export const CryptoElements = ({
@@ -316,38 +337,12 @@ After you’ve launched the Crypto Onramp, you can view customized usage reports
 
 <hr>
 
-## 🧑‍🤝‍🧑 Contribution 
+### Contribution
 
-Contributions to the repository are welcome!
+The "Contribution" section provides guidelines for contributing to the repository. It explains how to fork the repository, create a new branch, make changes, push changes to the branch, and open a pull request.
 
-If you would like to contribute to the project, please follow these steps:
+### License
 
-```sh
-Fork the repository.
+The "License" section indicates that the project is licensed under the MIT License, allowing users to freely use, modify, and distribute the codebase according to the terms of the license.
 
-Create a new branch for your feature or bug fix: git checkout -b my-feature.
-
-Make your changes and commit them: git commit -m "Add my feature".
-
-Push to the branch: git push origin my-feature.
-
-Open a pull request in the main repository.
-
-Please ensure that your code follows the project's coding style and conventions.
-
-Additionally, write clear commit messages and provide a detailed description in your pull request to facilitate the review process.
-```
-
-<hr>
-
-## ©️ License 
-
-The e-commerce project is licensed under the MIT License. You are free to use, modify, and distribute the codebase in accordance with the terms and conditions of the license.
-
-<hr>
-
-## ☎️ Contact  
-
-If you have any questions, suggestions, or feedback regarding E-Commerce that Accepts USDC, feel free to contact us at `contact@streamprotocol.org`. I appreciate your interest in the project and will get back to you as soon as possible.
-
-Thank you for your interest in E-Commerce that Accepts USDC. I hope you find the platform useful for selling and monetizing your digital content. Happy selling!
+Overall, the README provides detailed information about the project's purpose, features, setup, and usage, making it a valuable resource for developers interested in contributing to or using the StreamPay Onramp project.
