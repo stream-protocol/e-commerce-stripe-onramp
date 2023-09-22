@@ -6,7 +6,7 @@
 ### Cloning the repository
 
 ```shell
-git clone https://github.com/VanKiem-Tran/e-commerce-stripe-onramp.git
+git clone https://github.com/stream-protocol/e-commerce-stripe-onramp.git
 ```
 
 ```shell
