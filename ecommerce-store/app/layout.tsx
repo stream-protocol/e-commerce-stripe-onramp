@@ -30,8 +30,8 @@ export default function RootLayout({
         <Image
           src="/streampay.svg" // Provide the path relative to the "public" directory
           alt="StreamPay Logo"
-          width={400} // Adjust width as needed
-          height={300} // Adjust height as needed
+          width={300} // Adjust width as needed
+          height={200} // Adjust height as needed
         />
         {children}
         <Footer />
