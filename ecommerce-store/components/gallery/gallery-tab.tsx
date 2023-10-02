@@ -4,9 +4,8 @@ import { Tab } from "@headlessui/react";
 import { cn } from "@/lib/utils";
 import { Image } from "@/types";
 
-// Define the props for the GalleryTab component
 interface GalleryTabProps {
-  image: Image; // The image data to be displayed
+  image: Image;
 }
 
 const GalleryTab: React.FC<GalleryTabProps> = ({
@@ -18,7 +17,6 @@ const GalleryTab: React.FC<GalleryTabProps> = ({
     >
       {({ selected }) => (
         <div>
-          {/* Display the image */}
           <span className="absolute h-full w-full aspect-square inset-0 overflow-hidden rounded-md">
             <NextImage 
               fill 
@@ -27,7 +25,6 @@ const GalleryTab: React.FC<GalleryTabProps> = ({
               className="object-cover object-center" 
             />
           </span>
-          {/* Apply a ring highlight around the image if selected */}
           <span
             className={cn(
               'absolute inset-0 rounded-md ring-2 ring-offset-2',
@@ -39,5 +36,5 @@ const GalleryTab: React.FC<GalleryTabProps> = ({
     </Tab>
   );
 }
-
+ 
 export default GalleryTab;

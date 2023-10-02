@@ -1,3 +1,5 @@
+"use client";
+
 import Modal from '@/components/ui/modal';
 import React, { useState, useEffect } from 'react';
 import { loadStripeOnramp } from '@stripe/crypto';

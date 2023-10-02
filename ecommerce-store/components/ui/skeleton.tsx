@@ -1,6 +1,5 @@
-import { cn } from "@/lib/utils";
+import { cn } from "@/lib/utils"
 
-// Define the Skeleton component
 const Skeleton = ({
   className,
   ...props
@@ -10,7 +9,7 @@ const Skeleton = ({
       className={cn("animate-pulse rounded-md bg-neutral-200", className)}
       {...props}
     />
-  );
-};
+  )
+}
 
 export default Skeleton;
