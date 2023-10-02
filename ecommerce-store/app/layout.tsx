@@ -4,7 +4,6 @@ import ModalProvider from '@/providers/modal-provider'
 import ToastProvider from '@/providers/toast-provider'
 import Navbar from '@/components/navbar'
 import Footer from '@/components/footer'
-import Image from 'next/image';
 
 import './globals.css'
 import CheckoutProvider from '@/providers/checkout-provider'
@@ -12,7 +11,7 @@ import CheckoutProvider from '@/providers/checkout-provider'
 const font = Urbanist({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'StreamPay™',
+  title: 'StreamPay Store',
   description: 'Connecting people, creating possibilities.',
 }
 
