@@ -2,7 +2,6 @@
 
 import NextImage from "next/image";
 import { Tab } from "@headlessui/react";
-import { useRef } from "react";
 
 import { Image } from "@/types";
 
