@@ -66,7 +66,7 @@ export const OnrampElement = ({
 		const containerRef = onrampElementRef.current as any;
 		if (containerRef) {
 			// NB: ideally we want to be able to hot swap/update onramp iframe
-			// This currently results a flash if one needs to mint a new session when they need to udpate fixed transaction details
+			// This currently results a flash if one needs to mint a new session when they need to update fixed transaction details
 			containerRef.innerHTML = '';
 
 			if (clientSecret && stripeOnramp) {

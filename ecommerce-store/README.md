@@ -1,42 +1,51 @@
-## MAKE SURE YOU HAVE ADMIN SETUP FIRST!
-### Prerequisites
+# StreamPay™ E-Commerce Store
 
-**Node version 14.x**
+## Prerequisites
 
-### Cloning the repository
+Before you begin, ensure you have the following prerequisites:
+
+- Node.js version 14.x
+
+## Cloning the Repository
+
+Clone the repository using the following commands:
 
 ```shell
 git clone https://github.com/stream-protocol/e-commerce-stripe-onramp.git
-```
-
-```shell
 cd ecommerce-store
 ```
 
-### Install packages
+## Install Packages
+
+To install the required packages, run the following command:
 
 ```shell
-npm i
+npm install
 ```
 
-### Setup .env file
+## Setup .env File
 
+Create a `.env` file in the root of project and set the following environment variable:
 
-```js
+```env
 NEXT_PUBLIC_API_URL=
 ```
 
+Make sure to replace `NEXT_PUBLIC_API_URL` with the actual API URL needed for project.
 
-### Start the app
+## Start the App
+
+To start the development server, run the following command:
 
 ```shell
 npm run dev
 ```
 
-## Available commands
+## Available Commands
 
-Running commands with npm `npm run [command]`
+You can run the following commands using npm:
 
-| command         | description                              |
-| :-------------- | :--------------------------------------- |
-| `dev`           | Starts a development instance of the app. |
+| Command  | Description                                |
+| :------- | :----------------------------------------- |
+| `dev`    | Starts a development instance of the app. |
+

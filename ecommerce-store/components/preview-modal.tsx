@@ -5,6 +5,7 @@ import Gallery from "@/components/gallery";
 import Info from "@/components/info";
 import Modal from "@/components/ui/modal";
 
+
 const PreviewModal = () => {
   const previewModal = usePreviewModal();
   const product = usePreviewModal((state) => state.data);

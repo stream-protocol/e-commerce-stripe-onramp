@@ -3,7 +3,7 @@ export const lists = [
     title: 'Best Selling',
     items: [
       {
-        title: 'Acetate Sunglasses',
+        title: 'StreamPay Sunglasses',
         price: 10.99,
         rating: 5.0,
         ratingCount: 70,
@@ -43,7 +43,7 @@ export const lists = [
         image: '/coat.png'
       },
       {
-        title: 'Acetate Sunglasses',
+        title: 'StreamPay Sunglasses',
         price: 10.99,
         rating: 5.0,
         ratingCount: 70,
@@ -93,7 +93,7 @@ export const product = {
     { name: 'XS', selectedSize: 'xs' },
   ],
   description: `
-    <p>The Zip Tote Basket is the perfect midpoint between shopping tote and comfy backpack. With convertible straps, you can hand carry, should sling, or backpack this convenient and spacious bag. The zip top and durable canvas construction keeps your goods protected for all-day use.</p>
+    <p>The Zip Tote Basket – your ideal blend of a shopping tote and a cozy backpack. Its versatility shines through its convertible straps, allowing you to seamlessly switch between hand-carrying, shoulder-slinging, or backpacking this spacious and convenient bag. Crafted with durable canvas and equipped with a secure zip-top closure, it guarantees the protection of your belongings, ensuring they remain safe and accessible throughout your day. Elevate your everyday with this multifunctional and stylish companion.</p>
   `,
   details: [
     {
@@ -127,9 +127,9 @@ export const reviews = {
       id: 1,
       rating: 5,
       content: `
-        <p>This is the bag of my dreams. I took it on my last vacation and was able to fit an absurd amount of snacks for the many long and hungry flights.</p>
+        <p>This bag is an absolute dream come true. I recently took it with me on vacation, and it proved to be a lifesaver during the long and hunger-inducing flights. I was amazed by how many snacks I could comfortably stash away inside!.</p>
       `,
-      author: 'StreamPayments™',
+      author: 'Emily',
       avatarSrc:
         'https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=256&h=256&q=80',
     },
@@ -137,9 +137,9 @@ export const reviews = {
       id: 1,
       rating: 5,
       content: `
-        <p>This is the bag of my dreams. I took it on my last vacation and was able to fit an absurd amount of snacks for the many long and hungry flights.</p>
+        <p>This bag is truly a dream come true. I brought it along on my last vacation, and it exceeded all my expectations. It effortlessly accommodated an astonishing amount of snacks, making those long and hunger-filled flights a whole lot more enjoyable.</p>
       `,
-      author: 'StreamPayments™',
+      author: 'Emily',
       avatarSrc:
         'https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=256&h=256&q=80',
     },

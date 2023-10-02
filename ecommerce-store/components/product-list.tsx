@@ -4,7 +4,7 @@ import NoResults from "@/components/ui/no-results";
 
 interface ProductListProps {
   title: string;
-  items: Product[];
+  items: Product[]
 }
 
 const ProductList: React.FC<ProductListProps> = ({
@@ -21,7 +21,7 @@ const ProductList: React.FC<ProductListProps> = ({
         ))}
       </div>
     </div>
-  );
+   );
 }
-
+ 
 export default ProductList;
